@@ -1,0 +1,40 @@
+# Build
+build/
+cmake-build-*/
+out/
+__cmake_systeminformation/
+CMakeUserPresets.json
+CMakeCache.txt
+CMakeFiles/
+
+# IDE
+.vs/
+.vscode/
+.idea/
+*.user
+*.suo
+*.sln
+*.vcxproj*
+*.swp
+
+# Python
+__pycache__/
+*.pyc
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+
+# Generated data and run outputs
+data/
+runs/
+results/
+results-different/
+pre-triangulation/
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Editor / agent state
+.claude/

@@ -1,0 +1,7 @@
+sequence,dataset,cameras,model,poses,landmarks,observations
+kitti_0002,KITTI,4,Pinhole,77,3934,13320
+kitti_0009,KITTI,4,Pinhole,447,6843,21707
+kitti_0019,KITTI,4,Pinhole,481,13547,50928
+kitti_0039,KITTI,4,Pinhole,395,13493,47095
+kitti_0051,KITTI,4,Pinhole,438,15508,193149
+kitti_0117,KITTI,4,Pinhole,660,15871,64199

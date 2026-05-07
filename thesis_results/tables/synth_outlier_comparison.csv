@@ -1,0 +1,4 @@
+variant,robust_type,outlier_rejection_passes,rmse_reproj_px,mean_reproj_px,median_reproj_px,p95_reproj_px,num_inliers,num_outliers,inlier_ratio,mean_extr_rot_err_deg,mean_extr_trans_err_m,mean_pose_rot_err_deg,mean_pose_trans_err_m,mean_landmark_err_m,iterations,solver_success
+L2,None,0,1.5982,0.7238,0.6051,1.3477,21178,245,0.9886,0.008832,0.001494,0.01052,0.002864,0.009434,4,True
+Huber,Huber,0,1.9712,0.6677,0.5706,1.2133,21374,49,0.9977,0.002074,0.000381,0.004361,0.00076,0.006223,13,True
+Huber_Rejection,Huber,3,0.6852,0.6068,0.5674,1.1979,21318,0,1.0,0.001884,0.000351,0.004348,0.000723,0.006073,2,True

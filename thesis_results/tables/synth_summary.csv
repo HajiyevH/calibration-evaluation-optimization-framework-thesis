@@ -1,0 +1,8 @@
+experiment,camera_model,num_cameras,scene_type,mean_extr_rot_err_deg,mean_extr_trans_err_m,mean_intr_err_px,mean_dist_err,rmse_reproj_px,mean_pose_rot_err_deg,mean_pose_trans_err_m,mean_landmark_err_m,solver_time_s
+baseline,Pinhole,1,corridor,0.0,0.0,0.0,0.0,0.676671028137207,0.009047,0.001393,0.051992,0.34
+intrinsics_recovery,Pinhole,1,corridor,0.0,0.0,10.258247,0.0,0.6765961050987244,0.043519,0.01935,0.095398,0.68
+joint_recovery,Pinhole,4,surround,0.019601,0.000436,0.145046,0.00060351,0.6874549388885498,0.008084,0.00637,0.012293,0.9
+outlier_L2,Pinhole,4,surround,0.008832,0.001494,,,1.5982,0.01052,0.002864,0.009434,
+outlier_Huber,Pinhole,4,surround,0.002074,0.000381,,,1.9712,0.004361,0.00076,0.006223,
+outlier_Huber_Rejection,Pinhole,4,surround,0.001884,0.000351,,,0.6852,0.004348,0.000723,0.006073,
+fisheye_joint_recovery,Fisheye,4,surround,0.008514,0.000776,0.063742,0.00109381,0.6971412301063538,0.005597,0.006492,0.016696,1.73

@@ -1,0 +1,7 @@
+experiment,goal,scene,trajectory,cameras,poses,landmarks,noise_px,outlier_ratio,optimized,perturbation
+Exp 0: Baseline,Implementation sanity check,Corridor,Arc,1 Pinhole,25,600,0.5,0.0,"Poses, landmarks","1.0 deg rot, 0.02m trans, 0.05m LM"
+Exp 1: Single-cam intrinsics,Observability limitation,Corridor,Arc,1 Pinhole,25,600,0.5,0.0,"Poses, landmarks, intrinsics","1.0 deg rot, 0.02m trans, 0.05m LM, 20px intr"
+Exp 2: Joint multi-camera,Full joint recovery,Surround,Slalom,4 Pinhole,30,800,0.5,0.0,"All (poses, LM, intr, dist, extr)","1.0 deg rot, 0.02m trans, 0.05m LM, 2.0 deg extr, 0.05m extr, 15px intr, 0.01 dist"
+Exp 3: Outlier robustness,Robust loss comparison,Surround,Slalom,4 Pinhole,30,800,0.5,0.1,"Poses, landmarks, extrinsics","1.0 deg rot, 0.02m trans, 0.05m LM, 2.0 deg extr, 0.05m extr"
+Exp 4: Fisheye joint,Model generalization,Surround,Slalom,4 Fisheye,30,800,0.5,0.0,"All (poses, LM, intr, dist, extr)","1.0 deg rot, 0.02m trans, 0.05m LM, 2.0 deg extr, 0.05m extr, 15px intr, 0.01 dist"
+Monte Carlo,Basin of attraction,Surround,Arc,4 Pinhole,25,700,0.5,0.0,"Poses, landmarks, extrinsics",0.1-20 deg extr (12 levels x 100 trials)
